@@ -47,7 +47,7 @@ class BurgerBuilder extends Component {
   purchaseContinuedHandler = () => {
     alert("You continued")
   }
-  // ADD INGREDIENT
+  // ADD INGREDIENT handler
   addIngredientHandler = (type) => {
     const oldCount = this.state.ingredients[type]
     const updatedCount = oldCount + 1
