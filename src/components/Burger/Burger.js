@@ -2,6 +2,7 @@ import React from "react"
 import classes from "./Burger.module.css"
 import BurgerIngredient from "./Burgeringredient/Burgeringredient"
 const burger = (props) => {
+  console.log(props)
   //Object.keys extract keys of a given object and turn it into an array
   let transformedIngredients = Object.keys(props.ingredients)
     .map((igKey) => {
